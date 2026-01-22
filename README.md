@@ -1,5 +1,3 @@
-# pizza-shop-api
-
 To install dependencies:
 
 ```bash
