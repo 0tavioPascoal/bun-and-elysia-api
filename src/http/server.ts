@@ -1,5 +1,5 @@
-import Elysia from "elysia";
-import { env } from "../env";
+import Elysia from 'elysia'
+import { env } from '../env'
 
 const app = new Elysia().get('/', () => {
   return 'Hello World!'
