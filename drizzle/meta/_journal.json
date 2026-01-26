@@ -29,6 +29,13 @@
       "when": 1769047003072,
       "tag": "0003_lucky_silvermane",
       "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1769395175910,
+      "tag": "0004_supreme_vin_gonzales",
+      "breakpoints": true
     }
   ]
 }
