@@ -5,6 +5,7 @@ const envSchema = z.object({
   PORT: z.coerce.number().int().positive(),
   API_BASE_URL: z.string().url().min(1),
   AUTH_REDIRECT_URL: z.string().url().min(1),
+  JWT_TOKEN_SECRET: z.string(),
 })
 
 export const env = envSchema.parse(process.env)

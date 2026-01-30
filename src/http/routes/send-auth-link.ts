@@ -23,7 +23,7 @@ export const sendAuthLink = new Elysia().post(
 
     await db.insert(AuthLinks).values({
       code: authLinkCode,
-      usersId: userFromEmail.id,
+      userId: userFromEmail.id,
     })
 
     const authLink = new URL('/auth-links/authenticate', env.API_BASE_URL)
