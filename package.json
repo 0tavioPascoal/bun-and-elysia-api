@@ -28,7 +28,6 @@
     "lint": "eslint --fix src --ext ts"
   },
   "dependencies": {
-    "@elysiajs/cookie": "^0.8.0",
     "@elysiajs/jwt": "^1.4.0",
     "@paralleldrive/cuid2": "^3.0.6",
     "dayjs": "^1.11.19",
